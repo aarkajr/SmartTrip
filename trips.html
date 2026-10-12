@@ -5,10 +5,7 @@
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>My Trips | SmartTrip</title>
 
@@ -28,8 +25,12 @@
                 <span>✈</span>
                 SmartTrip
             </a>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="navLinks">
+                ☰
+            </button>
 
-            <ul class="nav-links">
+            <ul class="nav-links" id="navLinks">
 
                 <li>
                     <a href="index.html">Home</a>
@@ -49,10 +50,7 @@
 
             </ul>
 
-            <a
-                href="planner.html"
-                class="nav-button"
-            >
+            <a href="planner.html" class="nav-button">
                 Plan Your Trip
             </a>
 
@@ -86,10 +84,7 @@
 
             </div>
 
-            <a
-                href="planner.html"
-                class="create-trip-button"
-            >
+            <a href="planner.html" class="create-trip-button">
                 + Create New Trip
             </a>
 
@@ -114,20 +109,14 @@
 
                 </div>
 
-                <span
-                    id="tripCount"
-                    class="trip-count"
-                >
+                <span id="tripCount" class="trip-count">
                     0 trips
                 </span>
 
             </div>
 
 
-            <div
-                id="tripsList"
-                class="trips-grid"
-            >
+            <div id="tripsList" class="trips-grid">
 
                 <!-- Empty state -->
 

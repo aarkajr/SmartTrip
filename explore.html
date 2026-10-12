@@ -5,10 +5,7 @@
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Explore | SmartTrip</title>
 
@@ -26,8 +23,12 @@
                 <span>✈</span>
                 SmartTrip
             </a>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="navLinks">
+                ☰
+            </button>
 
-            <ul class="nav-links">
+            <ul class="nav-links" id="navLinks">
 
                 <li>
                     <a href="index.html">Home</a>
@@ -47,10 +48,7 @@
 
             </ul>
 
-            <a
-                href="planner.html"
-                class="nav-button"
-            >
+            <a href="planner.html" class="nav-button">
                 Plan Your Trip
             </a>
 
@@ -84,18 +82,11 @@
             </div>
 
 
-            <form
-                id="searchForm"
-                class="destination-search"
-            >
+            <form id="searchForm" class="destination-search">
 
                 <span>📍</span>
 
-                <input
-                    type="text"
-                    id="destinationInput"
-                    placeholder="Search a city or destination..."
-                >
+                <input type="text" id="destinationInput" placeholder="Search a city or destination...">
 
                 <button type="submit">
                     Explore →
@@ -110,10 +101,7 @@
 
         <section class="search-results-section">
 
-            <div
-                id="destinationResult"
-                class="destination-result"
-            >
+            <div id="destinationResult" class="destination-result">
 
                 <div class="empty-explore">
 
@@ -163,10 +151,8 @@
 
                 <div class="travel-type">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=85"
-                        alt="Nature and mountains"
-                    >
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=85"
+                        alt="Nature and mountains">
 
                     <div>
                         <span>01</span>
@@ -178,10 +164,8 @@
 
                 <div class="travel-type">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=800&q=85"
-                        alt="Traveler near the ocean"
-                    >
+                    <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=800&q=85"
+                        alt="Traveler near the ocean">
 
                     <div>
                         <span>02</span>
@@ -193,10 +177,8 @@
 
                 <div class="travel-type">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=85"
-                        alt="Coastal destination"
-                    >
+                    <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=85"
+                        alt="Coastal destination">
 
                     <div>
                         <span>03</span>
