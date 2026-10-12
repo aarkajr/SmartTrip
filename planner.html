@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plan a Trip | SmartTrip</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header class="site-header planner-header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <span>✈</span>
+                SmartTrip
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="explore.html">Explore</a>
+                </li>
+
+                <li>
+                    <a href="planner.html">Plan a Trip</a>
+                </li>
+
+                <li>
+                    <a href="trips.html">My Trips</a>
+                </li>
+
+            </ul>
+
+            <a href="planner.html" class="nav-button">
+                Plan Your Trip
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="planner-page">
+
+        <!-- Planner Introduction -->
+
+        <section class="planner-intro">
+
+            <div>
+
+                <span class="small-label">
+                    YOUR JOURNEY
+                </span>
+
+                <h1>
+                    Build your
+                    <em>perfect trip.</em>
+                </h1>
+
+                <p>
+                    Add your destination, choose your dates,
+                    and create an itinerary filled with places
+                    and activities you want to experience.
+                </p>
+
+            </div>
+
+            <div class="planner-number">
+                <span>TRIP</span>
+                <strong>01</strong>
+            </div>
+
+        </section>
+
+
+        <!-- Trip Details -->
+
+        <section class="planner-workspace">
+
+            <div class="trip-details-card">
+
+                <div class="card-heading">
+
+                    <div>
+                        <span class="small-label">
+                            STEP 01
+                        </span>
+
+                        <h2>
+                            Trip details
+                        </h2>
+                    </div>
+
+                    <span class="card-icon">
+                        ✦
+                    </span>
+
+                </div>
+
+
+                <form id="tripForm">
+
+                    <div class="form-group full-width">
+
+                        <label for="tripName">
+                            Trip Name
+                        </label>
+
+                        <input type="text" id="tripName" placeholder="My Dream Journey">
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="destination">
+                                Destination
+                            </label>
+
+                            <input type="text" id="destination" placeholder="Nairobi">
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="tripDate">
+                                Date
+                            </label>
+
+                            <input type="date" id="tripDate">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="activity">
+                            Activity
+                        </label>
+
+                        <input type="text" id="activity" placeholder="Visit Nairobi National Park">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="notes">
+                            Notes
+                        </label>
+
+                        <textarea id="notes" rows="4" placeholder="Add details about this activity..."></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="add-activity-btn">
+                        Add to itinerary
+                        <span>+</span>
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- Itinerary -->
+
+            <div class="itinerary-panel">
+
+                <div class="itinerary-heading">
+
+                    <div>
+
+                        <span class="small-label">
+                            STEP 02
+                        </span>
+
+                        <h2>
+                            Your itinerary
+                        </h2>
+
+                    </div>
+
+                    <div class="itinerary-count" id="itineraryCount">
+                        0 activities
+                    </div>
+
+                </div>
+
+
+                <div id="itineraryList" class="itinerary-list">
+
+                    <div class="empty-itinerary">
+
+                        <div class="empty-itinerary-icon">
+                            ✈
+                        </div>
+
+                        <h3>
+                            Your journey starts here
+                        </h3>
+
+                        <p>
+                            Add your first activity using
+                            the form on the left.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Planning Tip -->
+
+        <section class="planner-tip">
+
+            <span>TRAVEL TIP</span>
+
+            <p>
+                Leave some room in your itinerary.
+                The best travel memories aren't always planned.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-inner">
+
+            <a href="index.html" class="logo">
+                <span>✈</span>
+                SmartTrip
+            </a>
+
+            <p>
+                Plan better. Travel further.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/planner.js"></script>
+
+</body>
+
+</html>

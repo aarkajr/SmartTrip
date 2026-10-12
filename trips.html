@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>My Trips | SmartTrip</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header class="site-header trips-header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <span>✈</span>
+                SmartTrip
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="explore.html">Explore</a>
+                </li>
+
+                <li>
+                    <a href="planner.html">Plan a Trip</a>
+                </li>
+
+                <li>
+                    <a href="trips.html">My Trips</a>
+                </li>
+
+            </ul>
+
+            <a
+                href="planner.html"
+                class="nav-button"
+            >
+                Plan Your Trip
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="trips-page">
+
+        <!-- Page Introduction -->
+
+        <section class="trips-intro">
+
+            <div>
+
+                <span class="small-label">
+                    YOUR TRAVEL COLLECTION
+                </span>
+
+                <h1>
+                    Places you've
+                    <em>planned.</em>
+                </h1>
+
+                <p>
+                    Keep all your journeys organized in one
+                    place and return to your plans whenever
+                    you're ready to travel.
+                </p>
+
+            </div>
+
+            <a
+                href="planner.html"
+                class="create-trip-button"
+            >
+                + Create New Trip
+            </a>
+
+        </section>
+
+
+        <!-- Saved Trips -->
+
+        <section class="saved-trips-section">
+
+            <div class="saved-trips-heading">
+
+                <div>
+
+                    <span class="small-label">
+                        SAVED JOURNEYS
+                    </span>
+
+                    <h2>
+                        My trips
+                    </h2>
+
+                </div>
+
+                <span
+                    id="tripCount"
+                    class="trip-count"
+                >
+                    0 trips
+                </span>
+
+            </div>
+
+
+            <div
+                id="tripsList"
+                class="trips-grid"
+            >
+
+                <!-- Empty state -->
+
+                <div class="empty-trips">
+
+                    <div class="empty-trips-icon">
+                        🧳
+                    </div>
+
+                    <h3>
+                        Your travel collection is empty
+                    </h3>
+
+                    <p>
+                        Start planning your first journey
+                        and it will appear here.
+                    </p>
+
+                    <a href="planner.html">
+                        Plan your first trip →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Travel Quote -->
+
+        <section class="trips-quote">
+
+            <div class="quote-mark">
+                “
+            </div>
+
+            <p>
+                The world is waiting.
+                All you need to do is choose where to begin.
+            </p>
+
+            <span>
+                SMARTTRIP
+            </span>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-inner">
+
+            <a href="index.html" class="logo">
+                <span>✈</span>
+                SmartTrip
+            </a>
+
+            <p>
+                Plan better. Travel further.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/trips.js"></script>
+
+</body>
+
+</html>

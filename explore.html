@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Explore | SmartTrip</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="site-header explore-header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <span>✈</span>
+                SmartTrip
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="explore.html">Explore</a>
+                </li>
+
+                <li>
+                    <a href="planner.html">Plan a Trip</a>
+                </li>
+
+                <li>
+                    <a href="trips.html">My Trips</a>
+                </li>
+
+            </ul>
+
+            <a
+                href="planner.html"
+                class="nav-button"
+            >
+                Plan Your Trip
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="explore-page">
+
+        <!-- Explore Hero -->
+
+        <section class="explore-hero">
+
+            <div>
+
+                <span class="small-label">
+                    DESTINATION DISCOVERY
+                </span>
+
+                <h1>
+                    Where will your
+                    <em>journey</em> take you?
+                </h1>
+
+                <p>
+                    Search for a destination and discover
+                    information to help you plan your trip.
+                </p>
+
+            </div>
+
+
+            <form
+                id="searchForm"
+                class="destination-search"
+            >
+
+                <span>📍</span>
+
+                <input
+                    type="text"
+                    id="destinationInput"
+                    placeholder="Search a city or destination..."
+                >
+
+                <button type="submit">
+                    Explore →
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Search Results -->
+
+        <section class="search-results-section">
+
+            <div
+                id="destinationResult"
+                class="destination-result"
+            >
+
+                <div class="empty-explore">
+
+                    <div class="empty-icon">
+                        🌍
+                    </div>
+
+                    <h2>
+                        Start exploring
+                    </h2>
+
+                    <p>
+                        Search for a destination above
+                        to see travel information.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Inspiration -->
+
+        <section class="explore-inspiration">
+
+            <div class="section-top">
+
+                <div>
+
+                    <span class="small-label">
+                        TRAVEL INSPIRATION
+                    </span>
+
+                    <h2>
+                        What kind of trip
+                        are you dreaming of?
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="travel-types">
+
+                <div class="travel-type">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=85"
+                        alt="Nature and mountains"
+                    >
+
+                    <div>
+                        <span>01</span>
+                        <h3>Adventure</h3>
+                    </div>
+
+                </div>
+
+
+                <div class="travel-type">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=800&q=85"
+                        alt="Traveler near the ocean"
+                    >
+
+                    <div>
+                        <span>02</span>
+                        <h3>Relaxation</h3>
+                    </div>
+
+                </div>
+
+
+                <div class="travel-type">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=85"
+                        alt="Coastal destination"
+                    >
+
+                    <div>
+                        <span>03</span>
+                        <h3>Beach Escape</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-inner">
+
+            <a href="index.html" class="logo">
+                <span>✈</span>
+                SmartTrip
+            </a>
+
+            <p>
+                Plan better. Travel further.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/explore.js"></script>
+
+</body>
+
+</html>
